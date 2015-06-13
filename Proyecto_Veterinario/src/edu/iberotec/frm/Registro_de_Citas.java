@@ -18,7 +18,7 @@ public class Registro_de_Citas extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         setResizable(false);
-        setTitle("Registrar Citas");
+        setTitle("REGISTRO DE CITAS");//@ronal pz
     }
 
     /**
@@ -64,7 +64,7 @@ public class Registro_de_Citas extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setText("Registro de Citas");
+        jButton3.setText("Registro de Cita");
 
         jButton4.setText("Actualizar Cita");
 
@@ -111,15 +111,15 @@ public class Registro_de_Citas extends javax.swing.JFrame {
             .addComponent(jcMousePanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("Registro de Citas", jInternalFrame1);
+        jTabbedPane1.addTab("Registro de citas", jInternalFrame1);
 
         jInternalFrame2.setVisible(true);
 
         jcMousePanel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/iberotec/imagen/Fond.png"))); // NOI18N
 
-        jButton6.setText("Insertar Registro de fecha de vacuna ");
+        jButton6.setText("Insertar registro de fecha de vacuna ");
 
-        jButton7.setText("Consultar fechas de Vacunas ");
+        jButton7.setText("Consultar fechas de vacunas ");
 
         javax.swing.GroupLayout jcMousePanel2Layout = new javax.swing.GroupLayout(jcMousePanel2);
         jcMousePanel2.setLayout(jcMousePanel2Layout);
