@@ -7,7 +7,7 @@ package edu.iberotec.frm;
 
 /**
  *
- * @author Jhon World2 Reloaded
+ * @author juan ronal
  */
 public class Registro_de_Clientes extends javax.swing.JFrame {
 
@@ -135,6 +135,9 @@ public class Registro_de_Clientes extends javax.swing.JFrame {
         jButton5.setText("Eliminar Personas");
 
         jButton6.setText("Consultar Personas");
+        if(jButton.getSelected){
+            System.println("Consultando");
+        }
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
